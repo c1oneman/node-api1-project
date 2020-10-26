@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Module 1 Project",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c1oneman/node-api1-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c1oneman/node-api1-project/issues"
+  },
+  "homepage": "https://github.com/c1oneman/node-api1-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "shortid": "^2.2.16"
+  }
+}
