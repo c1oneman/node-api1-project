@@ -2,11 +2,12 @@ console.log('Server running');
 
 const express = require('express')
 const generate = require('shortid').generate
+require('dotenv').config()
 
 const app = express()
 app.use(express.json())
 
-const PORT = 5000
+const PORT = process.env.PORT
 
 let users = [
     { id: generate(), name: 'Clay', bio: '19 years old. Nebraska' },
